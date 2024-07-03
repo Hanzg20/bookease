@@ -8,9 +8,7 @@
 <body>
 <?php
 /**
- * Author: Zhaoguo Han,Feng Qi, Shanghao Li
- * Date: Nov 26 2023
- * Version: 1.0
+ * 
  * Description:This file manage the user's favorite books.
  *             It can delete books to a user's list of favorites and display books.
  *
