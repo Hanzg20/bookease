@@ -11,9 +11,6 @@
 <body>
 <?php 
 /**
- * Author: Zhaoguo Han,Feng Qi, Shanghao Li
- * Date: Nov 26 2023
- * Version: 1.0
  * Description:Handles the deletion of items from the database. 
  *             It  confirms with the user before deleting a book and then removes it based on its bookID.
  * 
