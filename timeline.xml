@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net">
+    <diagram name="Gantt Chart">
+      <mxGraphModel dx="1632" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <root>
+          <mxCell id="0"/>
+          <mxCell id="1" parent="0"/>
+  
+          <!-- Timeline -->
+          <mxCell id="2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="3" target="4">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+          <mxCell id="3" value="May 20" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+            <mxGeometry x="80" y="50" width="60" height="20" as="geometry"/>
+          </mxCell>
+          <mxCell id="4" value="August 10" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+            <mxGeometry x="680" y="50" width="80" height="20" as="geometry"/>
+          </mxCell>
+  
+          <!-- Tasks -->
+          <mxCell id="5" value="Front-end Design" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="100" y="80" width="120" height="30" as="geometry"/>
+          </mxCell>
+          <mxCell id="6" value="Database Setup" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="100" y="120" width="120" height="30" as="geometry"/>
+          </mxCell>
+          <mxCell id="7" value="Backend Development" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="250" y="80" width="120" height="30" as="geometry"/>
+          </mxCell>
+          <mxCell id="8" value="Testing" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="250" y="120" width="120" height="30" as="geometry"/>
+          </mxCell>
+          <mxCell id="9" value="Reader Registration and Login" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="400" y="80" width="150" height="30" as="geometry"/>
+          </mxCell>
+          <mxCell id="10" value="Book Search" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="400" y="120" width="150" height="30" as="geometry"/>
+          </mxCell>
+          <mxCell id="11" value="Book Borrowing" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="600" y="80" width="150" height="30" as="geometry"/>
+          </mxCell>
+          <mxCell id="12" value="Book Returning" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="600" y="120" width="150" height="30" as="geometry"/>
+          </mxCell>
+          <mxCell id="13" value="Book Collection" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="600" y="160" width="150" height="30" as="geometry"/>
+          </mxCell>
+          <mxCell id="14" value="Book Management" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="600" y="200" width="150" height="30" as="geometry"/>
+          </mxCell>
+          <mxCell id="15" value="Reader Management" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="600" y="240" width="150" height="30" as="geometry"/>
+          </mxCell>
+          <mxCell id="16" value="Borrowing Status Viewing" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="600" y="280" width="150" height="30" as="geometry"/>
+          </mxCell>
+        </root>
+      </mxGraphModel>
+    </diagram>
+  </mxfile>
+  
