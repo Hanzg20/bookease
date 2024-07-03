@@ -1,0 +1,326 @@
+/* General Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e4e1e1; 
+  margin: 0;
+  display: flex;
+  flex-direction: column; 
+  min-height: 100vh;
+  align-items: center; 
+}
+
+
+/* Header Styles */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  width: 100%;
+}
+
+.header nav,
+.header a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.header a {
+  color: white;
+  margin: 0 10px;
+}
+
+/* User Info Styles */
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.username,
+.header .user-info .logout-link {
+  color: rgb(227, 228, 240);
+  font-size: 0.8em;
+}
+
+.header .user-info .logout-link {
+  color: rgb(19, 131, 153);
+  text-decoration: underline;
+}
+.sameRow{
+  display: flex;
+  flex: 1;
+  align-items: Right;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+/* Container Styles */
+.container {
+  display: flex;
+  flex: 1;
+  max-width: 1000px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  padding: 5px;
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.welcome{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 120px;
+  background-image: url(../image/indexBack1.png);
+  width: 100%;
+  height: 650px;
+  margin-bottom: 150px;
+}
+
+.login_container {
+
+  width: 100%; /* Adjust width as needed */
+  max-width: 450px; /* Maximum width */
+  padding: 40px;
+  background-color: #fff; /* Container background */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.login-group {
+  margin-bottom: 25px; /* Adjust as needed */
+}
+
+
+/* If needed, add styles for input fields and labels */
+input[type="text"], input[type="password"] {
+  width: 100%; /* Full width */
+  padding: 8px; /* Adjust as needed */
+  margin: 6px 0; /* Spacing */
+  display: inline-block;
+  border: 1px solid #ccc; /* Adjust as needed */
+  box-sizing: border-box;
+}
+
+/* Form Styles */
+form,
+.search-form {
+  justify-content: start; /* Aligns children to the start of the container */
+  align-items: center;
+  padding: 15px;
+  gap: 20px; /* Sets space between form elements */
+  flex-wrap: nowrap; /* Prevents wrapping of flex items */
+  display: flex;
+}
+
+.search-form label {
+  margin: 0; /* Adjust if needed */
+  white-space: nowrap; /* Ensures the label text does not wrap */
+}
+
+.search-form input[type="text"],
+.search-form select,
+.search-form input[type="submit"] {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 1px;
+  margin: top 10px;
+}
+
+.search-form input[type="submit"] {
+  margin-left: 10px; /* Adds some space between the text input and submit button */
+}
+
+/* Button Styles */
+button,
+.operation-buttons button,
+.query-buttons button {
+  background-color: #a5afaf;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+.operation-buttons button {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Align operation-buttons to the center */
+.operation-buttons.center {
+  text-align: center;
+}
+
+/* Align operation-buttons to the right */
+.operation-buttons.right {
+  text-align: right;
+}
+
+/* Style for buttons inside operation-buttons */
+
+
+.operation-buttons button:hover {
+  background-color: #45a049;
+}
+/* Table Styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table.list tr td {
+  border: 1px solid #141111;
+}
+
+table.list tr th {
+  border: 1px solid rgb(37, 36, 36);
+  background: hsl(60, 2%, 17%);
+  color: rgb(245, 238, 238);
+  text-align: center;
+  font-size: 1em; /* Smaller font size */
+  height: 20px;
+  padding: 15;
+}
+
+/* Link Action Styles */
+.action {
+  border-bottom: 1px dashed  rgb(20, 50, 199);
+  color: rgb(20, 50, 199); /* White text */
+  padding: 5px 10px; /* Reduced padding */
+  font-size: 0.8em; /* Smaller font size */
+  text-decoration: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.action:hover {
+  background-color: #2986ad;
+}
+
+.form-row {
+  margin-bottom: 10px; /* Space between rows */
+}
+
+.form-row label, .form-row input, .form-row textarea {
+  display: block; /* Make each form element take a full row */
+  margin-bottom: 8px; /* Space between form elements */
+}
+
+.book-cover {
+  width: 300px;  /* Fixed Maximum width */
+  height: 450px; /* Fixed Maximum height */
+  display: block;
+  margin: auto; /* To center the image if it's smaller than the container */
+}
+
+/* Footer Styles */
+footer {
+    height: 30px;
+    width: 100%;
+    background: #b8b7b7;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    padding: 15px; 
+    position:fixed;
+    bottom: 0;
+    left: 0;
+}
+
+/* Additional Styles */
+.star {
+  cursor: pointer;
+  color: gold;
+}
+
+/* New Section for Result Container */
+#result-container {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #eee;
+}
+
+#operations {
+  text-align: center;
+
+}
+
+/* Style for displaying error messages, setting color, font size, and top margin. */
+.error-message {
+  color: red; /* Text color for error messages. */
+  font-size: 1em; /* Smaller font size for error messages. */
+  margin-top: 1px; /* Space above the error message. */
+}
+
+.success-message{
+color: green; /* Text color for error messages. */
+font-size: 1.1em; /* Smaller font size for error messages. */
+margin-top: 1px; /* Space above the error message. */
+}
+
+/* Error Messages */
+#titleError,
+#authorError,
+#genreError,
+#ratingError,
+#reviewError, 
+#emailError,
+#phoneError,
+#newUsernameError,
+#newPasswordError{
+  font-size: 13px;
+  color: crimson;
+}
+
+.error-border{
+  border: 1px solid red;
+}
+
+.highlight {
+  background-color: #ffff99; /*  highlighting style */
+}
+/* Responsive Design Adjustments */
+@media (max-width: 1204px) {
+  .header {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .header nav {
+      padding-bottom: 10px;
+  }
+
+  .username {
+      position: static;
+      padding-top: 10px;
+  }
+}
