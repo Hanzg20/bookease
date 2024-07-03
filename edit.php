@@ -9,9 +9,7 @@
 <body>
 <?php 
 /**
- * Author: Zhaoguo Han,Feng Qi, Shanghao Li
- * Date: Nov 26 2023
- * Version: 1.0
+ * 
  * Description:Used for editing existing books. It  has a form pre-filled with the books's 
  *            current data (fetched from the database), which can be modified and updated.
  * 
@@ -117,7 +115,7 @@ if ($bookFound) {
             enctype="multipart/form-data" onsubmit="return validate();">
             <input type="hidden" name="id" value="<?php echo $id; ?>">
         <div class="form-row">
-            <a class="back-link" href="home.php">&laquo; Back to the books list</a><br><br>
+            <a class="back-link" href="admin.php">&laquo; Back to the books list</a><br><br>
             <h4>Edit Book Details</h4>
 
             <label>Book ID:</label>
@@ -144,7 +142,7 @@ if ($bookFound) {
             <input type="number" id="rating" name="rating" value="<?php echo $rating; ?>" step="1">
             <div id="ratingError" class="error-message"></div>
 
-            <label>Review:</label>
+            <label>Description:</label>
             <textarea name="review" id="review" rows="8" cols="50"><?php echo $review; ?></textarea><br>
             <div id="reviewError" class="error-message"></div>
 

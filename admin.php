@@ -9,9 +9,7 @@
 
 <?php
 /**
- * Author: Zhaoguo Han,Feng Qi, Shanghao Li
- * Date: Nov 26 2023
- * Version: 1.0
+ 
  * Description:The main dashboard or homepage seen by users after logging in.
  *             It  displays an overview of books list content , user-log in information.
  *             and allow uers input search criteria of the specific books by titel,author and genre.
@@ -46,7 +44,7 @@ if (!$result_set) {
 <!-- Rest of your HTML code remains unchanged -->
 
 <!-- Search form -->
-<form action="home.php" method="get" class="search-form">
+<form action="admin.php" method="get" class="search-form">
     <label for="type">Search by:</label>
     <select name="search_type" id="type" required>
         <option value="Title">Title</option>

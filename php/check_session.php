@@ -1,8 +1,6 @@
 <?php
 /**
- * Author: Zhaoguo Han, Feng Qi, Shanghao Li
- * Date: Nov 26 2023
- * Version: 1.1
+ * 
  * Description: This script checks if a user is logged in (by checking session variables).
  *              It's included at the top of pages that require a user to be authenticated.
  */

@@ -8,9 +8,7 @@
 <body>
 <?php
 /**
- * Author: Zhaoguo Han,Feng Qi, Shanghao Li
- * Date: Nov 26 2023
- * Version: 1.0
+ * 
  * Description: Used to display detailed information about a specific  book.
  *              It  retrieves data from the database based on an ID passed in
  *              the URL and displays it.
@@ -42,7 +40,14 @@ if (isset($_GET['id'])) {
 
     <div class="container">
        <div id="content">
-       <a class="back-link" href="home.php">&laquo; Back to the books list</a>
+       <?php
+        if($_SESSION['user_type'] === 'Reader'){
+            echo '<a class="back-link" href="home.php">&laquo; Back to the books list</a>';
+            }
+        else{
+            echo '<a class="back-link" href="admin.php">&laquo; Back to the books list</a>';    
+            }
+        ?>
        <h4>Book Details</h4>
         <?php if (isset($book)): ?>
             <form class="form">
@@ -59,7 +64,7 @@ if (isset($_GET['id'])) {
                     <input type="text" value="<?php echo $genre; ?>" readonly><br>
                     <label>Rating:</label>
                     <input type="text" value="<?php echo $rating; ?>" readonly><br>
-                    <label>Review:</label>
+                    <label>Description:</label>
                     <textarea name="review" id="review" rows="14" cols="50" readonly><?php echo $review; ?></textarea><br>
                 </div>
 

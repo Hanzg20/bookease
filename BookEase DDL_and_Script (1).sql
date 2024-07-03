@@ -18,6 +18,7 @@ CREATE TABLE Users (
     UserID INT AUTO_INCREMENT PRIMARY KEY,
     UserName VARCHAR(60) NOT NULL,
     Email VARCHAR(100) NOT NULL,
+    phonenumber varchar(20) NOT NULL,
     Password VARCHAR(60) NOT NULL,
     UserType ENUM('Reader', 'Admin') DEFAULT 'Reader' -- Adding user type to differentiate between readers and admins
 );

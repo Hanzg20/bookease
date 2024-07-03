@@ -1,8 +1,6 @@
 <?php
 /**
- * Author: Zhaoguo Han,Feng Qi, Shanghao Li
- * Date: Nov 26 2023
- * Version: 1.0
+ * 
  * Description:This file  be responsible for retrieving and displaying 
  *             image files, such as book covers, from the database or file system.
  * 

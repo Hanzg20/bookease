@@ -121,8 +121,8 @@ if (isset($_GET['updatedBookId']) && $_GET['updatedBookId'] == $book['BookID']) 
                         <td><?php echo htmlspecialchars($book['Rating']); ?></td>
                         <td><a class="action" href="?id=<?php echo urlencode($book['BookID']); ?>">Collect</a></td>
                         <td><a class="action" href="show.php?id=<?php echo urlencode($book['BookID']); ?>">View</a></td>
-                        <td><a class="action" href="edit.php?id=<?php echo urlencode($book['BookID']); ?>">Borrow</a></td>
-                        <td><a class="action" href="delete.php?id=<?php echo urlencode($book['BookID']); ?>">Return</a></td>
+                        <td><a class="action" href="borrow.php?id=<?php echo urlencode($book['BookID']); ?>">Borrow</a></td>
+                        <td><a class="action" href="return.php?id=<?php echo urlencode($book['BookID']); ?>">Return</a></td>
                     </tr>
                 <?php endwhile;?>
             <?php else: ?>

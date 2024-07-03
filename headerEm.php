@@ -12,11 +12,13 @@ include 'php/check_session.php';
 <body>
     <div class="header">
         <nav>
-            <a href="home.php">Home</a>
+            
             <?php if ($_SESSION['user_type'] === 'Admin'): ?>
+                <a href="admin.php">Home</a>
                 <a href="manage_users.php">Manage Users</a>
                 <a href="view_borrowing_status.php">View Status</a>
             <?php elseif ($_SESSION['user_type'] === 'Reader'): ?>
+                <a href="home.php">Home</a>
                 <a href="favourite.php">My Collection</a>
                 <a href="borrow_books.php">Borrow Books</a>
                 <a href="return_books.php">Return Books</a>

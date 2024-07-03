@@ -1,8 +1,5 @@
 <?php
 /**
- * Author: Zhaoguo Han,Feng Qi, Shanghao Li
- * Date: Nov 26 2023
- * Version: 1.0
  * Description: This common file that establishes a database connection using credentials 
  *              from db_credentials.php. It  contains functions for common database operations.
  *

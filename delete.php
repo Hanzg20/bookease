@@ -70,7 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <h4>Are you sure you want to Delete this book?</h4>
     <div class="container">
         <div id="content">
-            <a class="back-link" href="home.php">&laquo; Back to the books list</a>
+            <a class="back-link" href="admin.php">&laquo; Back to the books list</a>
             <h2><p class="book name"><?php echo $title; ?></p></h2>
              <!-- Display the book cover image -->
              <div class="form-row">
